@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/user_create_menu_action_discard"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/create_card_menu_action_discard"/>
+    <item
+        android:id="@+id/user_create_menu_action_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/create_card_menu_action_save"/>
+
+</menu>

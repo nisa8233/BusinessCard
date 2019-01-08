@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4sp"
+    android:background="#33CCCC"
+    android:orientation="vertical"
+    android:padding="4sp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/view_card_activity_company_logo"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginRight="10sp"
+            android:src="@drawable/logo_example" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/view_card_activity_company_logo"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/card_view_activity_name_and_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/card_view_activity_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/card_view_activity_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/card_view_activity_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/card_view_activity_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/card_view_activity_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/card_view_activity_icon_line"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/icon_line" />
+
+        <ImageView
+            android:id="@+id/card_view_activity_icon_facebook"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/icon_facebook" />
+
+
+
+        <ImageView
+            android:id="@+id/card_view_activity_icon_web"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/icon_web" />
+    </LinearLayout>
+
+</LinearLayout>

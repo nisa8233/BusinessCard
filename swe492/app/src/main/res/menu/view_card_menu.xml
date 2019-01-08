@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/card_view_menu_action_edit"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom"
+        android:title="@string/view_card_menu_action_edit"/>
+    <item
+        android:id="@+id/card_view_menu_action_print"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/view_card_menu_action_print"/>
+    <item
+        android:id="@+id/card_view_menu_action_share"
+        android:orderInCategory="150"
+        android:showAsAction="always"
+        android:title="@string/view_card_menu_action_share"/>
+
+</menu>

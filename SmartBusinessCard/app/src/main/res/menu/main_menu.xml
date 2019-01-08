@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/main_menu_action_register"
+        android:orderInCategory="10"
+        android:showAsAction="always"
+        android:title="@string/main_menu_action_register"/>
+
+
+    <item
+        android:id="@+id/main_menu_action_new"
+        android:orderInCategory="10"
+        android:showAsAction="always"
+        android:title="@string/main_menu_action_new"/>
+
+
+
+
+</menu>

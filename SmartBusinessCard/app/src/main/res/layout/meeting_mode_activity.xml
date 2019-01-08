@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5sp" >
+
+        <TextView
+            android:id="@+id/meeting_mode_activity_nfc_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/meeting_mode_activity_nfc_title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/meeting_mode_activity_nfc_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/meeting_mode_activity_nfc_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/meeting_mode_activity_nfc_help" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/meeting_mode_activity_nfc_help"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_nfc" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/meeting_mode_activity_or_label" />
+
+    <!-- TODO: check that the grey lines are displayed -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5sp" >
+
+        <TextView
+            android:id="@+id/meeting_mode_activity_qr_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/meeting_mode_activity_qr_title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/meeting_mode_activity_qr_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/meeting_mode_activity_qr_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/meeting_mode_activity_qr_help" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/meeting_mode_activity_qr_help"
+            android:layout_centerInParent="true"
+            android:padding="5sp"
+            android:src="@drawable/qr_code_example" />
+    </RelativeLayout>
+
+</LinearLayout>
